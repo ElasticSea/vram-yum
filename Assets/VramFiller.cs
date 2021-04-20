@@ -46,7 +46,7 @@ public class VramFiller
             data[i] = (byte) i;
         }
         spawnCubeTexture.SetPixelData(data, 0);
-        spawnCubeTexture.Apply();
+        spawnCubeTexture.Apply(false, true);
         return spawnCubeTexture;
     }
 }
